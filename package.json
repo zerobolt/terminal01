@@ -1,0 +1,16 @@
+{
+  "name": "my-terminal-backend",
+  "version": "1.0.0",
+  "description": "Web-based terminal backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "node-pty": "^0.10.1",
+    "uuid": "^9.0.1"
+  }
+}
